@@ -7,8 +7,8 @@ export default {
     const { asPath } = useRouter()
     const { frontMatter, title } = useConfig()
     return <>
-      <meta property="og:url" content={`https://chemwiki.mrwillcom.com${asPath}`} />
-      <meta property="og:title" content={title + ' · ChemWiki'} />
+      <meta property="og:url" content={`https://geowiki.aeilot.top${asPath}`} />
+      <meta property="og:title" content={title + ' · GeoWiki'} />
       <meta property="og:description" content={frontMatter.description || '中学地理知识库'} />
     </>
   },
